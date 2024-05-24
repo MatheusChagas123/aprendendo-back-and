@@ -1,0 +1,22 @@
+{
+  "name": "aprendendo-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/serve.js",
+    "dev": "nodemon ./src/serve.js"
+  },
+  "keywords": [],
+  "author": "Matheus Chagas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
